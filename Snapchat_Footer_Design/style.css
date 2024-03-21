@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height:100vh;
+    background-color: yellow;
+}
+
+img{
+    width:30px;
+    height:30px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    gap: 16%;
+    width:30%;
+    height:9%;
+    border-radius: 90px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 18px;
+    margin-top: 40%;
+}
+
+span{
+    color: yellow;
+}
